@@ -205,3 +205,59 @@ text-align: center;
     margin-top: 40px;
 }
 
+/* sponsors styling */
+
+.sponsor-part {
+    margin-top: 50px;
+}
+.sponsor-title {
+    text-align: center;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+}
+.sponsors img {
+    width: 150px;
+    height: 100px;
+}
+
+
+/* footer styling */
+
+footer {
+    width: 483.87px;
+    height: 213px;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    left: 670px;
+}
+
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media img{
+       width: 40px;
+       height: 40px;
+       margin-left: 5px;
+       position: relative;
+       left: 20px;
+       cursor: pointer;
+}
+
+
+.footer-text {
+      width: 236px;
+      height: 31px;
+      font-family: 'Poppins', sans-serif;
+      position: relative;
+      left: 145px;
+}
