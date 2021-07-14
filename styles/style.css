@@ -261,3 +261,84 @@ footer img{
       position: relative;
       left: 145px;
 }
+
+/* Mobile Responsive  */
+
+@media only screen and (max-width: 360px) {
+    .headline-part {
+    height: 1100px;
+    }
+    
+    .headline {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tournament-thumbnail img {
+        position: relative;
+        right: 90px;
+    }
+
+    .players, .videos {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+
+    #Messi {
+        position: relative;
+        left: 230px;
+    }
+    #Ronaldo {
+        position: relative;
+        left: 230px;
+    }
+    #Ozil {
+        position: relative;
+        left: 230px;
+    }
+    #Icardi {
+        position: relative;
+        left: 230px;
+    }
+    #Kylian {
+        position: relative;
+        left: 230px;
+    }
+    #Salah {
+        position: relative;
+        left: 230px;
+    }
+    #Kevin {
+        position: relative;
+        left: 230px;
+    }
+    #Coutinho {
+        position: relative;
+        left: 230px;
+    }
+ .video-title {
+    position: relative;
+    left: 400px;
+ }
+    #video-1 {
+        position: relative;
+        left: 335px;
+    }
+    #video-2 {
+        position: relative;
+        left: 335px;
+    }
+    #video-3 {
+        position: relative;
+        left: 335px;
+    }
+    .sponsor-part {
+            position: relative;
+            left: 405px;
+        }
+    footer {
+        position: relative;
+            left: 270px;
+    }    
+    
+}
